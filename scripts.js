@@ -1,10 +1,4 @@
-
-
-
-
-
-
-const splash = document.querySelector(".Intro");
+const splash = document.querySelector(".Intro"); /* Tworzenie efektu intro */
 
 document.addEventListener("DOMContentLoaded", (e)=>{
   setTimeout(()=>{
