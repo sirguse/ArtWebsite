@@ -10,26 +10,21 @@ html, body {
     padding: 0;
     margin: 0;
     height:100%;
-    box-sizing: border-box;
-    
-    
-    
-    
-
+    box-sizing: border-box; 
 }
-.background{
+.FirstPage {
+    height:100%;
+    width:100%;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
-
-    background-image: url(art/background.jpg);
-
-
+    background-image: url(art/background.png);
 }
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
-/*   
+  
 }
+/*
 .Pasek{
     position:relative;
     top:4vw;
@@ -44,10 +39,12 @@ body {
     background-color: rgba(0, 0, 0, 0.397);
     overflow: hidden;
     font-family: 'Sigmar' sans-serif;
-*/
+
     
     
 }
+*/
+/*
 .Napisy h1{
     color: red;
     font-size: 10px;
@@ -57,7 +54,7 @@ body {
     letter-spacing: 1px;
     animation: Pasek1 1s linear infinite;
 }
-
+*/
 
 
 @keyframes Pasek1{
@@ -70,8 +67,9 @@ body {
     }
 }
 
+
 #Obraz{
-    position: relative;
+    position: absolute;
     mix-blend-mode: multiply;
     width:15vw;
     height: 5vw;
@@ -88,20 +86,7 @@ body {
     }
     
 }
-#Logo{
-    position:absolute;
-    left:50%;
-    transform: translate(-50%, -50%);
-    top:7rem;
-    animation: animacja 2s ease-in-out infinite;
-}
-@keyframes animacja{
-    50%{
-        opacity:0;
-        
-        
-    }
-}
+
 
 .Slide{
     width: 25vh;
@@ -109,7 +94,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     position: absolute;
-    top:25%;
+    top:15%;
     left:3%;
     border-radius: 40px;
     border: 3px solid black;
@@ -122,7 +107,7 @@ body {
     width:500%;
     height: 70vh;
     display: flex;
-    animation: slide 13s infinite;
+    animation: slide 16s infinite;
 
 
 
@@ -161,6 +146,98 @@ body {
         transform: translateX(-60%);
     }
 }   
+.ASlide{
+    width: 25vh;
+    height: 30vh;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top:55%;
+    left:3%;
+    border-radius: 40px;
+    border: 3px solid black;
+    box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+    
+
+
+}
+.ASlide1{
+    width:500%;
+    height: 70vh;
+    display: flex;
+    animation: slide 16s infinite;
+
+
+
+}
+.ASlide1 img{
+    width: 25vh;
+    height:30vh;
+}
+
+
+.BSlide{
+    width: 25vh;
+    height: 30vh;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top:55%;
+    right:3%;
+    border-radius: 40px;
+    border: 3px solid black;
+    box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+    
+
+
+}
+.BSlide1{
+    width:500%;
+    height: 70vh;
+    display: flex;
+    animation: slide 16s infinite;
+
+
+
+}
+.BSlide1 img{
+    width: 25vh;
+    height:30vh;
+}
+
+
+
+.CSlide{
+    width: 25vh;
+    height: 30vh;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top:15%;
+    right:3%;
+    border-radius: 40px;
+    border: 3px solid black;
+    box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
+    
+
+
+}
+.CSlide1{
+    width:500%;
+    height: 70vh;
+    display: flex;
+    animation: slide 16s infinite;
+
+
+
+}
+.CSlide1 img{
+    width: 25vh;
+    height:30vh;
+}
+
+
+  
 
 
 .Intro{
