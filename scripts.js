@@ -7,3 +7,12 @@ document.addEventListener("DOMContentLoaded", (e)=>{
 })
 
 
+function showSecondPage() {
+  var firstPage = document.querySelector('.FirstPage');
+  var secondPage = document.querySelector('.SecondPage');
+  
+  firstPage.style.display = 'none';
+  secondPage.style.display = 'block';
+}
+
+

@@ -67,7 +67,6 @@ body {
     }
 }
 
-
 #Obraz{
     position: absolute;
     mix-blend-mode: multiply;
@@ -79,6 +78,7 @@ body {
     animation: animacja1 2.8s ease-in-out infinite;
  
 }
+
 @keyframes animacja1{
     50%{
         opacity:0;
@@ -87,7 +87,6 @@ body {
     }
     
 }
-
 
 .Slide{
     width: 25vh;
@@ -100,27 +99,19 @@ body {
     border-radius: 40px;
     border: 3px solid black;
     box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
-    
-
-
 }
+
 .Slide1{
     width:500%;
     height: 70vh;
     display: flex;
     animation: slide 16s infinite;
-
-
-
 }
+
 .Slide1 img{
     width: 25vh;
     height:30vh;
 }
-
-
-
-
 
 @keyframes slide{
     0%{
@@ -147,6 +138,7 @@ body {
     100%{
         transform: translateX(-60%);
     }
+
 }   
 .ASlide{
     width: 25vh;
@@ -159,24 +151,19 @@ body {
     border-radius: 40px;
     border: 3px solid black;
     box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
-    
-
-
 }
+
 .ASlide1{
     width:500%;
     height: 70vh;
     display: flex;
     animation: slide 16s infinite;
-
-
-
 }
+
 .ASlide1 img{
     width: 25vh;
     height:30vh;
 }
-
 
 .BSlide{
     width: 25vh;
@@ -189,25 +176,19 @@ body {
     border-radius: 40px;
     border: 3px solid black;
     box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
-    
-
-
 }
+
 .BSlide1{
     width:500%;
     height: 70vh;
     display: flex;
     animation: slide 16s infinite;
-
-
-
 }
+
 .BSlide1 img{
     width: 25vh;
     height:30vh;
 }
-
-
 
 .CSlide{
     width: 25vh;
@@ -220,27 +201,22 @@ body {
     border-radius: 40px;
     border: 3px solid black;
     box-shadow: 10px 25px 30px rgba(0, 0, 0, 0.3);
-    
-
-
 }
+
 .CSlide1{
     width:500%;
     height: 70vh;
     display: flex;
     animation: slide 16s infinite;
-
-
-
 }
+
 .CSlide1 img{
     width: 25vh;
     height:30vh;
 }
 
 
-  
-
+/* Intro */
 
 .Intro{
     position: absolute;
@@ -282,6 +258,15 @@ body {
 }
 
 
+
+
+
+
+
+
+.SecondPage{
+    display: none;
+}
 
     /*
     }
